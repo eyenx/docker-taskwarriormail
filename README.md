@@ -1,5 +1,7 @@
 # TaskWarriorMail as a Docker Container
 
+[![Circle CI](https://circleci.com/gh/eyenx/docker-taskwarriormail.svg?style=svg)](https://circleci.com/gh/eyenx/docker-taskwarriormail)
+
 This container includes:
 
 * fetchmail to fetch mails
