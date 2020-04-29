@@ -54,7 +54,7 @@ taskd.ca=~/.task/ca.cert.pem
 * sync tasks
 * use TaskWarriorMail to fetch mail and add task
 * sync task
-* sleep $INTERVAL
+* sleep `$INTERVAL`
 
 ## Exmaple usage:
 
