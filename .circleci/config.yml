@@ -11,10 +11,6 @@ jobs:
           command: |
             docker build -t eyenx/taskwarriormail . 
       - run:
-          name: Test Image
-          command: |
-            docker run eyenx/taskwarriormail taskwarriormail-sync --help
-      - run:
           name: Push Image
           command: |
             echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin && docker tag eyenx/taskwarriormail:latest eyenx/taskwarriormail:$CIRCLE_SHA1 && docker push eyenx/taskwarriormail:latest && docker push eyenx/taskwarriormail:$CIRCLE_SHA1
