@@ -56,7 +56,7 @@ taskd.ca=~/.task/ca.cert.pem
 * sync task
 * sleep `$INTERVAL`
 
-## Exmaple usage:
+## Example usage:
 
 ```
 docker run -e FETCHMAIL_SERVER=mail.example.org -e FETCHMAIL_USER=taskwarrior@example.org -e FETCHMAIL_PASSWORD=mysecretpassword! -v $(pwd)/.task:/home/tw/.task -v $(pwd)/.taskrc:/home/tw/.taskrc eyenx/taskwarriormail
