@@ -1,8 +1,8 @@
 # TaskWarriorMail as a Docker Container
 
 
+![](https://github.com/eyenx/docker-taskwarriormail/workflows/build/badge.svg)
 [![](https://images.microbadger.com/badges/image/eyenx/taskwarriormail.svg)](https://microbadger.com/images/eyenx/taskwarriormail "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/eyenx/taskwarriormail.svg)](https://microbadger.com/images/eyenx/taskwarriormail "Get your own version badge on microbadger.com")
-[![Circle CI](https://circleci.com/gh/eyenx/docker-taskwarriormail.svg?style=svg)](https://circleci.com/gh/eyenx/docker-taskwarriormail)
 
 This container includes:
 
