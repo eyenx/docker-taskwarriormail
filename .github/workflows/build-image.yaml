@@ -25,7 +25,7 @@ jobs:
       - name: Prepare Image Metadata
         id: prep
         run: |
-          DOCKER_IMAGE=eyenx/drone-build-trigger
+          DOCKER_IMAGE=eyenx/taskwarriormail
           VERSION=noop
           if [ "${{ github.event_name }}" = "schedule" ]; then
             VERSION=nightly
