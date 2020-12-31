@@ -2,7 +2,6 @@
 
 
 ![](https://github.com/eyenx/docker-taskwarriormail/workflows/build%20image/badge.svg)
-[![](https://images.microbadger.com/badges/image/eyenx/taskwarriormail.svg)](https://microbadger.com/images/eyenx/taskwarriormail "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/eyenx/taskwarriormail.svg)](https://microbadger.com/images/eyenx/taskwarriormail "Get your own version badge on microbadger.com")
 
 This container includes:
 
@@ -61,7 +60,7 @@ taskd.ca=~/.task/ca.cert.pem
 ## Example usage:
 
 ```
-docker run -e FETCHMAIL_SERVER=mail.example.org -e FETCHMAIL_USER=taskwarrior@example.org -e FETCHMAIL_PASSWORD=mysecretpassword! -v $(pwd)/.task:/home/tw/.task -v $(pwd)/.taskrc:/home/tw/.taskrc eyenx/taskwarriormail
+docker run -e FETCHMAIL_SERVER=mail.example.org -e FETCHMAIL_USER=taskwarrior@example.org -e FETCHMAIL_PASSWORD=mysecretpassword! -v $(pwd)/.task:/home/tw/.task -v $(pwd)/.taskrc:/home/tw/.taskrc ghcr.io/eyenx/taskwarriormail
 $INTERVAL not set, defaulting to 300 seconds
 Syncing with taskwarrior.example.org:1337
 Sync successful.  No changes.
