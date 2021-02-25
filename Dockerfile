@@ -1,6 +1,6 @@
 	
 FROM	ruby:alpine
-LABEL	maintainer="eye@eyenx.ch"
+LABEL	org.opencontainers.image.source="Toni Tauro <eye@eyenx.ch>"
 COPY	docker-entrypoint.sh	/docker-entrypoint.sh
 RUN	apk add --no-cache \
 	task \
